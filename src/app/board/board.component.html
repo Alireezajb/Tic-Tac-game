@@ -1,0 +1,19 @@
+<div class="resposive">
+    <h1 class="jb">blockChain.jb</h1>
+    <h1>Current Player : {{player}}</h1>
+
+<button (click)="newGame()">Start New Game</button>
+
+<h2 *ngIf="winner">
+    Player <span>{{winner}}</span> Won The Game
+</h2>
+
+<main>
+    <app-square
+    *ngFor="let value of squares; let i=index"
+    [value]="value"
+    (click)="makeMove(i)" > 
+    
+    </app-square>
+</main>
+</div>

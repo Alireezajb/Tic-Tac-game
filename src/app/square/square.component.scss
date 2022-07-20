@@ -1,0 +1,31 @@
+button {
+
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    background: linear-gradient(145deg, #e1e1e1, #ffffff);
+}
+
+.o {
+    font-size: 180px;
+    background: linear-gradient(145deg, #e1e1e1, crimson);
+
+}
+
+.x {
+    background: linear-gradient(145deg, #e1e1e1, aqua);
+    font-size: 180px;
+}
+@media (max-width: 768px)
+{
+    .o {
+        font-size: 100px;
+        background: linear-gradient(145deg, #e1e1e1, crimson);
+    
+    }
+    
+    .x {
+        background: linear-gradient(145deg, #e1e1e1, aqua);
+        font-size: 100px;
+    }
+}
